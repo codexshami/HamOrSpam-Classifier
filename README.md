@@ -191,7 +191,7 @@ MIT License - See [LICENSE](LICENSE) for details
 ## 📬 Contact
 
 **Mohd Shami**
-📧 [shamimohd367@gmail.com](mailto:shamimohd367@gmail.com)
+📧 [codexshami@gmail.com](mailto:codexshami@gmail.com)
 💼 [LinkedIn](https://www.linkedin.com/in/mohd-shami-792133276)
 🔗 [Project Repository](https://github.com/codewithshami/hamOrSpam-Classifier)
 
