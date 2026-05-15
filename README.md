@@ -275,5 +275,5 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) for the f
 **Mohd Shami**
 
 - Email: [codexshami@gmail.com](mailto:codexshami@gmail.com)
-- LinkedIn: [linkedin.com/in/mohd-shami-792133276](https://www.linkedin.com/in/mohd-shami-792133276)
+- LinkedIn: [linkedin.com/in/mohd-shami-792133276](https://www.linkedin.com/in/codexshami)
 - Repository: [github.com/codewithshami/HamOrSpam-Classifier](https://github.com/codewithshami/hamOrSpam-Classifier)
