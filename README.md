@@ -7,6 +7,8 @@
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Accuracy](https://img.shields.io/badge/accuracy-98.2%25-brightgreen)](#performance)
 
+![Application Overview](./img/model.png)
+
 HamOrSpam is a production-grade spam detection system that combines TF-IDF vectorization with logistic regression to classify email messages with greater than 98% accuracy. The application ships with a Streamlit-based analytics interface, real-time inference, and model export capabilities.
 
 ---
@@ -90,6 +92,12 @@ Evaluated on a held-out test split after SMOTE-balanced training.
 | Recall    | 98.5%  |
 | F1 Score  | 98.1%  |
 
+![Model Performance](./img/model_performence.png)
+
+![Accuracy Curve](./img/accuracy.png)
+
+![Evaluation Metrics](./img/matrics.png)
+
 ---
 
 ## Installation
@@ -126,6 +134,14 @@ streamlit run app.py
 
 The application will be available at `http://localhost:8501` by default.
 
+![Application Interface](./img/interface.png)
+
+### Getting Started
+
+Before classifying messages, refer to the onboarding screen for a walkthrough of available features and controls.
+
+![Instructions](./img/instructions.png)
+
 ### Classifying a Message
 
 1. Navigate to the **Prediction** tab in the sidebar.
@@ -134,9 +150,19 @@ The application will be available at `http://localhost:8501` by default.
 4. Review the classification label, confidence score, and probability distribution.
 5. Optionally inspect the keyword analysis panel for feature-level explanations.
 
+![Analyser View](./img/analyser.png)
+
+![Analyser — Spam Result](./img/analyser01.png)
+
+![Analyser — Ham Result](./img/analyser02.png)
+
 ### Analytics Dashboard
 
 The **Analytics** tab surfaces model performance metrics, confusion matrix visualizations, word frequency distributions, and dataset statistics without requiring any additional configuration.
+
+![Data Statistics](./img/data_statistics.png)
+
+![Word Frequency Distribution](./img/word_frequency.png)
 
 ---
 
@@ -249,5 +275,5 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) for the f
 **Mohd Shami**
 
 - Email: [codexshami@gmail.com](mailto:codexshami@gmail.com)
-- LinkedIn: [linkedin.com/in/mohd-shami-792133276](https://www.linkedin.com/in/codexshami)
+- LinkedIn: [linkedin.com/in/mohd-shami-792133276](https://www.linkedin.com/in/mohd-shami-792133276)
 - Repository: [github.com/codewithshami/HamOrSpam-Classifier](https://github.com/codewithshami/hamOrSpam-Classifier)
